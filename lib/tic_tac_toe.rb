@@ -48,7 +48,7 @@ end
 end
 
 def turn_count
-  
+  @board.count{|combo|
 
 def turn
 
