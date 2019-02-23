@@ -48,7 +48,8 @@ end
 end
 
 def turn_count
-  @board.count{|combo|
+  @board.count{|square| square != " "}
+end
 
 def turn
 
