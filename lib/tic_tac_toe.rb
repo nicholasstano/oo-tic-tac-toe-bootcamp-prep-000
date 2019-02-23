@@ -83,5 +83,6 @@ end
 end
 
 def full? 
+  @board.all{|token| token =
 
 end
