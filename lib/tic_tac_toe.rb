@@ -103,15 +103,6 @@ end
 def play
 
 turn until over?
-if won?
-  puts "Congratulations #{winner}!"
-elsif draw?
-  puts "Cat's Game!"
-
-  n = 1 
-  while n < 10 
-  turn
-  n += 1 
 
 end
 end
