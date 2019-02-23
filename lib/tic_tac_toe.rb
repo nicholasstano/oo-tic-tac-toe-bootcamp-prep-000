@@ -67,7 +67,7 @@ def turn
   index = input_to_index(user_input)
   if valid_move?(index)
   token = current_player  
-  move
+  move(index, token)
   else 
   turn
 end
