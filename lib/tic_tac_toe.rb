@@ -55,7 +55,7 @@ def turn
   if valid_move?(index)
   token = current_player  
   move
-    else 
+  else 
   turn
 end
 display_board
