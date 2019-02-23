@@ -15,6 +15,6 @@ WIN_COMBINATIONS = [
   [6, 4, 2]]
 
 def display_board(board)
-  puts ""
+  puts "#{board[0]}"
 
 end
