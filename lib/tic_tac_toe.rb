@@ -100,20 +100,6 @@ def winner
   end
 end
 
-def play
 
-turn(board) until over?(board)
-if won?(board)
-  puts "Congratulations #{winner(board)}!"
-elsif draw?(board)
-  puts "Cat's Game!"
-
-  n = 1 
-  while n < 10 
-  turn(board)
-  n += 1 
-
-end
-end
 
 end
