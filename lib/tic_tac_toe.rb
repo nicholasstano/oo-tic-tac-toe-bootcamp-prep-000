@@ -87,6 +87,6 @@ def full?
 end
 
 def draw?
-  @board.
+  full?.
 
 end
