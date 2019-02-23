@@ -39,6 +39,12 @@ else
 end
 end
 
-
+def valid_move?(index)
+  if (@board[index] == "" || @board[index] == " ") && index.between?(0, 8)
+  true
+else
+  false
+end
+end
 
 end
