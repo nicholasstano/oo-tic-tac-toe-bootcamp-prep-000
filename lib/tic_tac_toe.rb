@@ -1,8 +1,8 @@
 class TicTacToe
   
-def initialize   
+def initialize=(board)
   
-board = Array.new(9, " ") 
+  board = Array.new(9, " ") 
  
 
 end
