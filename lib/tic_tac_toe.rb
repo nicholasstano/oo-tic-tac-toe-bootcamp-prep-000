@@ -47,6 +47,9 @@ else
 end
 end
 
+def turn_count
+  
+
 def turn
 
   puts "Please enter 1-9:"
